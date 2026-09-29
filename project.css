@@ -1,0 +1,535 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.overall{
+    min-height:732px;
+    background-color: black;
+    overflow: hidden;
+}
+.contectBox{
+    min-height: 720px; 
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+.contactbtn{
+    font-size: 15px;
+         color: black;
+         background-color:crimson;
+         min-height: 30px;
+         min-width: 30px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         border-radius: 50%;
+}
+}
+.row2{
+    display: flex;
+    
+}
+.leftbox{
+    min-height: 660px;
+    margin-left: 100px;
+    width: 45% !important;
+    background-color:black;
+}
+.into{
+        height: 300px;
+        width: 55%;
+        background-color:black;
+        display: flex;
+        position: relative;
+        margin: 10px;
+    }
+.lefttop{
+    height: 50%;
+    background-color: black;
+    display: flex;
+    padding-left: 30px;
+    
+}
+.leftbottom{
+     height: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: end;
+}
+.rightbox{
+     min-height: 660px;
+    width:50% !important;
+    background-color:black;
+    padding-right: 100px;
+}
+.righttop{
+    height:50%;
+    background-color: black;
+    display: flex;
+}
+.rightbottom{
+    height:50%;
+    background-color:black;
+      display: flex;
+    justify-content: end;
+}
+.finaltext{
+    height: 100%;
+    width: 100%;
+    background-color: crimson;
+    padding-right:30%;
+    padding-left: 10px;
+    color: wheat;
+    h1{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 55px;
+        margin-top: -10px;
+    }
+    button{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        position: absolute;
+        top:50px;
+        background-color: crimson;
+        color: wheat;
+        border: none;
+    }
+    p{
+        font-size: 12px; 
+        margin-top:-7px;
+    }
+    h5{
+        margin-top: -10px;
+    }
+    h6{
+        margin-top:-5px;
+    }
+}
+.finalinto{
+    margin-top: 10px;
+    height:260px;
+    width: 70%;
+    background-color: wheat;
+    position: absolute;
+    right: -40%;
+    transform:rotate(-10deg);
+
+}
+.finalBL{
+    left: -50%;
+    transform:rotate(10deg);
+}
+.textleftpin{
+    margin-top: -13px;
+    height: 40px;
+    width: 50px;
+    margin-left: 45%;
+}
+.Bpin{
+    height: 40px;
+    width: 50px;
+    margin-left:80% ;
+      position: absolute;
+    
+}
+.Tbin{
+    position: absolute;
+     height: 40px;
+    width: 50px;
+}
+.finalintoIMG{
+    height:250px;
+    width:100% ;
+    margin-top: 10px;
+    padding: 20px;
+}
+.finaltextB{
+margin-right: -30%;
+display: flex;
+flex-direction: column;
+align-items: end;
+text-align: end;
+padding-right: 20px;
+padding-left: 30%;
+}
+.nb:hover{
+    color:crimson;
+}
+.nb{
+    text-decoration: none;
+    color: wheat;
+}
+/* =========================
+   LAPTOP
+   1200px and above
+========================= */
+
+@media (min-width: 1200px) {
+
+    .overall {
+        min-height: 100vh;
+    }
+
+    .row2 {
+        width: 100%;
+        display: flex;
+    }
+
+    .leftbox {
+        width: 50% !important;
+        margin-left: 50px;
+    }
+
+    .rightbox {
+        width: 50% !important;
+        padding-right: 50px;
+    }
+
+    .into {
+        width: 55%;
+    }
+
+    .finaltext h1 {
+        font-size: 55px;
+    }
+
+    .finalinto {
+        width: 70%;
+    }
+
+    .contectBox {
+        width: 100px !important;
+    }
+
+    .contactbtn {
+        font-size: 30px;
+        min-height: 50px;
+        min-width: 50px;
+    }
+}
+
+
+/* =========================
+   TABLET
+   768px - 1199px
+========================= */
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+    .overall {
+        min-height: 100vh;
+    }
+
+    /* NAVBAR */
+
+    nav {
+        padding: 0 20px !important;
+    }
+
+    nav h1 {
+        font-size: 28px;
+    }
+
+    nav header:last-child {
+        display: flex;
+        gap: 5px;
+    }
+
+    nav button {
+        padding: 5px !important;
+    }
+
+    nav h5 {
+        font-size: 13px;
+    }
+
+    /* MAIN */
+
+    .row2 {
+        display: flex;
+        width: 100%;
+    }
+
+    .leftbox {
+        width: 50% !important;
+        margin-left: 20px;
+    }
+
+    .rightbox {
+        width: 50% !important;
+        padding-right: 20px;
+    }
+
+    .into {
+        width: 65%;
+        margin: 5px;
+    }
+
+    .finaltext {
+        padding-right: 20%;
+        padding-left: 8px;
+    }
+
+    .finaltext h1 {
+        font-size: 40px;
+    }
+
+    .finaltext h5 {
+        font-size: 14px;
+    }
+
+    .finaltext h6 {
+        font-size: 12px;
+    }
+
+    .finaltext p {
+        font-size: 10px;
+    }
+
+    .finalinto {
+        width: 75%;
+        right: -35%;
+    }
+
+    .finalintoIMG {
+        padding: 10px;
+    }
+
+    .contactbtn {
+        font-size: 25px;
+        min-height: 45px;
+        min-width: 45px;
+    }
+
+    .contectBox {
+        width: 80px !important;
+    }
+}
+
+
+/* =========================
+   MOBILE
+   Below 768px
+========================= */
+
+@media (max-width: 767px) {
+
+    .overall {
+        min-height: 100vh;
+        overflow-x: hidden;
+    }
+
+    /* NAVBAR */
+
+    nav {
+        height: auto !important;
+        min-height: 100px !important;
+        padding: 10px !important;
+        display: flex !important;
+        flex-direction: column;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 5px;
+    }
+
+    nav h1 {
+        font-size: 25px;
+        margin: 0;
+    }
+
+    nav header:last-child {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2px;
+    }
+
+    nav button {
+        padding: 3px 5px !important;
+    }
+
+    nav h5 {
+        font-size: 10px;
+        margin: 0;
+    }
+
+    /* MAIN ROW */
+
+    .row2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 30px;
+    }
+
+    /* SOCIAL BUTTONS */
+
+    .contectbtn {
+        position: relative;
+        width: 100%;
+    }
+
+    .contectBox {
+        position: relative !important;
+        min-height: auto;
+        width: 100% !important;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .contactbtn {
+        font-size: 20px;
+        min-height: 40px;
+        min-width: 40px;
+    }
+
+    /* LEFT + RIGHT */
+
+    .leftbox,
+    .rightbox {
+        width: 100% !important;
+        margin-left: 0;
+        padding-right: 0;
+        min-height: auto;
+    }
+
+    .lefttop,
+    .leftbottom,
+    .righttop,
+    .rightbottom {
+        height: auto;
+        min-height: 400px;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .into {
+        width: 85%;
+        height: 300px;
+        margin: 10px;
+    }
+
+    /* TEXT CARD */
+
+    .finaltext {
+        width: 100%;
+        height: 100%;
+        padding: 10px 20px;
+    }
+
+    .finaltext h1 {
+        font-size: 35px;
+    }
+
+    .finaltext h5 {
+        font-size: 13px;
+    }
+
+    .finaltext h6 {
+        font-size: 11px;
+    }
+
+    .finaltext p {
+        font-size: 10px;
+    }
+
+    .finaltext button {
+        top: 35px;
+        font-size: 11px;
+    }
+
+    /* IMAGE CARD */
+
+    .finalinto {
+        width: 75%;
+        height: 220px;
+        right: -30%;
+    }
+
+    .finalintoIMG {
+        width: 100%;
+        height: 210px;
+        object-fit: cover;
+        padding: 10px;
+    }
+
+    /* BOTTOM CARDS */
+
+    .finaltextB {
+        margin-right: -20%;
+        padding-left: 25%;
+        padding-right: 10px;
+    }
+
+    /* PINS */
+
+    .textleftpin {
+        height: 30px;
+        width: 40px;
+    }
+
+    .Bpin,
+    .Tbin {
+        height: 30px;
+        width: 40px;
+    }
+}
+
+
+/* =========================
+   SMALL MOBILE
+   Below 480px
+========================= */
+
+@media (max-width: 480px) {
+
+    nav h1 {
+        font-size: 22px;
+    }
+
+    nav h5 {
+        font-size: 8px;
+    }
+
+    .into {
+        width: 90%;
+        height: 280px;
+    }
+
+    .finaltext h1 {
+        font-size: 30px;
+    }
+
+    .finaltext h5 {
+        font-size: 11px;
+    }
+
+    .finaltext h6 {
+        font-size: 10px;
+    }
+
+    .finaltext p {
+        font-size: 9px;
+    }
+
+    .finalinto {
+        height: 200px;
+        right: -35%;
+    }
+
+    .finalintoIMG {
+        height: 190px;
+    }
+
+    .contactbtn {
+        font-size: 18px;
+        min-height: 35px;
+        min-width: 35px;
+    }
+}

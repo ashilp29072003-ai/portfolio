@@ -1,0 +1,696 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.overall{
+    min-height: 100vh;
+    width: 100%;
+    background-color:black;
+    overflow:hidden;    
+}
+
+
+.ROW2{
+    min-height:630px;
+    width: 100%;
+    gap: 30px;
+
+}
+.leftOverall{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    margin-left: 150px;
+    gap: 65px;
+.leftbox{
+    
+}
+}
+.contectBox{
+    min-height: 720px; 
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+.contactbtn{
+    font-size: 15px;
+         color: black;
+         background-color:crimson;
+         min-height: 30px;
+         min-width: 30px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         border-radius: 50%;
+}
+}
+.leftBox{
+    min-height:600px;
+    min-width:400px;
+    background-color: transparent;
+    border:6px solid crimson;
+    display: flex;
+    align-items:start;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 20px;
+    
+.intoleft{
+    min-height:440px;
+    min-width: 450px;
+    background-color:black;
+    position: absolute;
+    left:-100px;
+    
+    .textdiv{
+        padding-left: 10px; 
+        min-height: 360px;
+        min-width:450px;
+        color: wheat;
+        padding-top: 20px;
+        line-height: 40px;
+    }
+    h6{
+        background-color: black;
+        color: wheat;
+        border:2px solid crimson;
+        display: inline;
+        border-radius: 5px;
+        padding: 5px;
+        
+    }
+    h2{
+        color: wheat;
+    }
+}
+p{
+line-height:15px;
+font-size: 15px;
+}
+}
+.topdought{
+min-height: 15px;
+ min-width: 15px;
+ background-color: crimson;
+ border-radius: 50%;
+ position: absolute;
+ left:-10px;
+top:60px; 
+}
+.bottomdought{
+    min-height: 15px;
+     min-width: 15px;
+     background-color: crimson;
+     border-radius: 50%;
+     position: absolute;
+     left: -10px;
+     bottom: 60px;
+}
+/* right side */
+.rightoverall{
+    display: flex;
+    justify-content:space-between;
+    align-items: end;
+    gap: 20PX;
+    background-color: black;
+    
+    
+}
+.rightbox{
+     min-height:570px;
+    width:25%;
+    background-color:transparent;
+    border:6px solid crimson;
+    padding-bottom: 50px;
+    position: relative;
+    margin-right:350PX;
+    background-color: transparent;
+    
+}
+.rightinto{
+height:550px ;
+width:500px ;
+background-color:black;
+margin-top: 50px;
+
+}
+.textbox2{
+    height: 300px;
+    width:500px;
+    padding: 10px;
+    line-height: 20px;
+    color: wheat;
+    .h6-1{
+        background-color:black;
+        color: wheat;
+        padding: 3px;
+        display: inline;
+        border:2px solid crimson;
+        border-radius: 5px;
+        margin-bottom: 5px;
+    }
+    h6{
+        line-height: 5px;
+    }
+    p{
+        font-size: 15px;
+    }
+    h4{
+        padding-top:5px;
+    }
+}
+.top2dought{
+    height:15px;
+    width:15px;
+    background-color:crimson;
+    border-radius: 50%;
+    position: absolute;
+    right:-12px;
+    top: 35px;
+    
+
+}
+.bottom2dought{
+      height:15px;
+    width:15px;
+    background-color:crimson ;
+    border-radius: 50%;
+    position: absolute;
+      right:-12px;
+    bottom: 38px;
+}
+.nb:hover{
+    color:crimson;
+}
+.nb{
+    text-decoration: none;
+    color: wheat;
+}
+
+/* =========================================================
+   LAPTOP RESPONSIVE
+   1025px - 1200px
+========================================================= */
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+
+    .ROW2 {
+        min-height: 650px;
+        gap: 10px;
+    }
+
+    .contectBox {
+        width: 80px !important;
+        min-height: 650px;
+    }
+
+    .leftOverall {
+        width: 45% !important;
+        margin-left: 60px;
+        gap: 30px;
+    }
+
+    .leftBox {
+        min-width: 350px;
+        width: 350px;
+        min-height: 570px;
+    }
+
+    .intoleft {
+        min-width: 400px;
+        width: 400px;
+        left: -70px;
+    }
+
+    .textdiv {
+        min-width: 400px !important;
+        width: 400px;
+    }
+
+    .rightoverall {
+        width: 45% !important;
+        gap: 10px;
+    }
+
+    .rightbox {
+        width: 350px;
+        min-height: 570px;
+        margin-right: 100px;
+    }
+
+    .rightinto {
+        width: 430px;
+    }
+
+    .textbox2 {
+        width: 430px;
+    }
+
+    .leftOverall > div:last-child h1,
+    .rightoverall > div:first-child h1 {
+        font-size: 60px !important;
+    }
+}
+
+
+/* =========================================================
+   TABLET RESPONSIVE
+   768px - 1024px
+========================================================= */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .ROW2 {
+        min-height: auto;
+        width: 100%;
+        gap: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 30px 20px;
+    }
+
+    /* Social icons */
+    .contectBox {
+        position: fixed;
+        left: 10px;
+        top: 100px;
+        width: 60px !important;
+        min-height: auto;
+        gap: 15px;
+        z-index: 100;
+    }
+
+    .contactbtn {
+        font-size: 22px;
+        min-width: 45px;
+        min-height: 45px;
+    }
+
+    /* LEFT SIDE */
+
+    .leftOverall {
+        width: 48% !important;
+        margin-left: 40px;
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .leftBox {
+        min-width: 300px;
+        width: 300px;
+        min-height: 600px;
+    }
+
+    .intoleft {
+        min-width: 350px;
+        width: 350px;
+        left: -60px;
+        min-height: 500px;
+    }
+
+    .textdiv {
+        min-width: 350px !important;
+        width: 350px;
+        padding: 15px !important;
+        line-height: 25px;
+    }
+
+    .textdiv h4 {
+        font-size: 20px;
+    }
+
+    .textdiv p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    /* EXPERIENCE TEXT */
+
+    .leftOverall > div:last-child {
+        width: 35px !important;
+    }
+
+    .leftOverall > div:last-child h1 {
+        font-size: 45px !important;
+        margin-top: -180px !important;
+    }
+
+
+    /* RIGHT SIDE */
+
+    .rightoverall {
+        width: 48% !important;
+        gap: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .rightbox {
+        width: 300px;
+        min-height: 600px;
+        margin-right: 30px;
+    }
+
+    .rightinto {
+        width: 350px;
+        height: 550px;
+    }
+
+    .textbox2 {
+        width: 350px;
+        padding: 10px;
+    }
+
+    .textbox2 h4 {
+        font-size: 20px;
+    }
+
+    .textbox2 h6 {
+        font-size: 13px;
+    }
+
+    .textbox2 p {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    /* EDUCATION TEXT */
+
+    .rightoverall > div:first-child {
+        width: 35px !important;
+    }
+
+    .rightoverall > div:first-child h1 {
+        font-size: 45px !important;
+    }
+}
+
+
+/* =========================================================
+   MOBILE RESPONSIVE
+   0px - 767px
+========================================================= */
+
+@media (max-width: 767px) {
+
+    .overall {
+        width: 100%;
+        min-height: 100vh;
+        overflow-x: hidden;
+    }
+
+
+    /* ================= NAVBAR ================= */
+
+    .overall > .row:first-child {
+        height: auto !important;
+        min-height: 100px;
+    }
+
+    nav {
+        width: 100% !important;
+        min-height: 100px !important;
+        padding: 15px !important;
+        align-items: center !important;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav h1 {
+        font-size: 28px;
+        margin: 0;
+    }
+
+    nav header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    nav button {
+        padding: 5px 8px !important;
+    }
+
+    nav button h5 {
+        font-size: 11px;
+        margin: 0;
+    }
+
+
+    /* ================= MAIN ROW ================= */
+
+    .ROW2 {
+        width: 100%;
+        min-height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        padding: 50px 20px;
+    }
+
+
+    /* ================= SOCIAL ICONS ================= */
+
+    .contectBox {
+        position: fixed;
+        left: 5px;
+        top: 150px;
+        width: 45px !important;
+        min-height: auto;
+        gap: 10px;
+        z-index: 1000;
+    }
+
+    .contactbtn {
+        font-size: 18px;
+        min-width: 38px;
+        min-height: 38px;
+    }
+
+
+    /* ================= LEFT SECTION ================= */
+
+    .leftOverall {
+        width: 100% !important;
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .leftBox {
+        width: 260px;
+        min-width: 260px;
+        min-height: 650px;
+        border-width: 4px;
+    }
+
+    .intoleft {
+        width: 290px;
+        min-width: 290px;
+        min-height: 570px;
+        left: -35px;
+    }
+
+    .textdiv {
+        width: 290px !important;
+        min-width: 290px !important;
+        min-height: auto;
+        padding: 15px !important;
+        padding-left: 20px !important;
+        padding-right: 10px !important;
+        line-height: 22px;
+    }
+
+    .textdiv h6 {
+        font-size: 11px;
+        padding: 4px;
+    }
+
+    .textdiv h4 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .textdiv p {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+
+    /* EXPERIENCE VERTICAL TEXT */
+
+    .leftOverall > div:last-child {
+        width: 30px !important;
+    }
+
+    .leftOverall > div:last-child h1 {
+        font-size: 38px !important;
+        margin-top: -170px !important;
+    }
+
+
+    /* LEFT DOTS */
+
+    .topdought {
+        left: -9px;
+        top: 50px;
+    }
+
+    .bottomdought {
+        left: -9px;
+        bottom: 50px;
+    }
+
+
+    /* ================= RIGHT SECTION ================= */
+
+    .rightoverall {
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .rightbox {
+        width: 260px;
+        min-width: 260px;
+        min-height: 650px;
+        margin-right: 0;
+        border-width: 4px;
+    }
+
+    .rightinto {
+        width: 290px;
+        height: 590px;
+        margin-top: 35px;
+    }
+
+    .textbox2 {
+        width: 290px;
+        height: auto;
+        padding: 15px;
+        line-height: 18px;
+    }
+
+    .textbox2 h6 {
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+    .textbox2 .h6-1 {
+        font-size: 11px;
+        padding: 3px;
+    }
+
+    .textbox2 h4 {
+        font-size: 18px;
+        padding-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .textbox2 p {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+
+    /* EDUCATION VERTICAL TEXT */
+
+    .rightoverall > div:first-child {
+        width: 30px !important;
+    }
+
+    .rightoverall > div:first-child h1 {
+        font-size: 38px !important;
+    }
+
+
+    /* RIGHT DOTS */
+
+    .top2dought {
+        right: -10px;
+        top: 30px;
+    }
+
+    .bottom2dought {
+        right: -10px;
+        bottom: 30px;
+    }
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+   0px - 480px
+========================================================= */
+
+@media (max-width: 480px) {
+
+    nav h1 {
+        font-size: 24px;
+    }
+
+    nav button h5 {
+        font-size: 9px;
+    }
+
+    nav button {
+        padding: 4px 6px !important;
+    }
+
+    .ROW2 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .leftBox,
+    .rightbox {
+        width: 230px;
+        min-width: 230px;
+    }
+
+    .intoleft,
+    .rightinto {
+        width: 255px;
+        min-width: 255px;
+    }
+
+    .textdiv,
+    .textbox2 {
+        width: 255px !important;
+        min-width: 255px !important;
+    }
+
+    .textdiv h4,
+    .textbox2 h4 {
+        font-size: 16px;
+    }
+
+    .textdiv p,
+    .textbox2 p {
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    .leftOverall > div:last-child h1,
+    .rightoverall > div:first-child h1 {
+        font-size: 32px !important;
+    }
+
+    .contactbtn {
+        min-width: 35px;
+        min-height: 35px;
+        font-size: 16px;
+    }
+}
